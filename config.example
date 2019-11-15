@@ -1,0 +1,35 @@
+[default]
+region = us-east-1
+output = json
+source_profile = default
+mfa_serial = arn:aws:iam::000000000000:mfa/billybob
+role_arn = arn:aws:iam::000000000000:role/DevAccess
+role_session_name = default-billybob
+
+[profile dev]
+region = us-east-1
+role_arn = arn:aws:iam::000000000000:role/DevAccess
+mfa_serial = arn:aws:iam::000000000000:mfa/billybob
+source_profile = default
+role_session_name = dev-billybob
+
+[profile staging]
+region = us-east-1
+role_arn = arn:aws:iam::000000000000:role/DevAccess
+mfa_serial = arn:aws:iam::000000000000:mfa/billybob
+source_profile = default
+role_session_name = staging-billybob
+
+[profile preprod]
+region = us-east-1
+role_arn = arn:aws:iam::000000000000:role/DevAccess
+mfa_serial = arn:aws:iam::000000000000:mfa/billybob
+source_profile = default
+role_session_name = preprod-billybob
+
+[profile prod]
+region = us-east-1
+role_arn = arn:aws:iam::000000000000:role/DevAccess
+mfa_serial = arn:aws:iam::000000000000:mfa/billybob
+source_profile = default
+role_session_name = prod-billybob
