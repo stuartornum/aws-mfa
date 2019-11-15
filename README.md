@@ -12,8 +12,7 @@ Get temporary AWS credential from a choice of multiple AWS accounts
 ```bash
 mkdir ~/.bin/
 # Git clone this repo somewhere and "cd" into it
-cp aws-mfa.sh ~/.bin/
-cp aws-session-manager.py ~/.bin/
+cp aws-mfa.sh aws-session-manager.py ~/.bin/
 ```
 
 Edit your `~/.bash_profile` or `~/.zshrc` to include the `~/.bin` directory in your path, or just do the following:
