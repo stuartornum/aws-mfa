@@ -4,9 +4,9 @@ Get temporary AWS credential from a choice of multiple AWS accounts
 # Setup
 ### Prerequisites 
 
-You already have a `~/.aws/credentials` and `~/.aws/config` files setup with role_arns and source profiles, examples in this repo.
+- Python 3
 
-Good example: https://boto3.amazonaws.com/v1/documentation/api/1.9.46/guide/configuration.html#assume-role-provider
+- You already have a `~/.aws/credentials` and `~/.aws/config` files setup with role_arns and source profiles, examples in this repo. Good example: [Click here](https://boto3.amazonaws.com/v1/documentation/api/1.9.46/guide/configuration.html#assume-role-provider)
 
 ### Commands
 ```bash
