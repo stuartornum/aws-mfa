@@ -7,7 +7,7 @@ unset AWS_SESSION_TOKEN
 echo "" > ~/.aws/temp_session
 
 # Show all AWS profiles, select one, generate temp_session
-python aws-session-manager.py
+python ~/.bin/aws-session-manager.py
 
 # Source it for the current shell window
 source ~/.aws/temp_session
