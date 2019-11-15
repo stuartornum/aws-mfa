@@ -22,7 +22,7 @@ Edit your `~/.bash_profile` or `~/.zshrc` to include the `~/.bin` directory in y
 # For bash
 
 echo "export PATH=\"~/.bin:$PATH\"" >> ~/.bash_profile
-echo "alias getaws='source aws-mfa.sh'" >> ~/.bash_profile
+echo "alias getaws='source ~/.bin/aws-mfa.sh'" >> ~/.bash_profile
 ```
 ```bash
 # For zsh
