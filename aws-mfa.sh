@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -eu
 
 # Cleanup
 unset AWS_ACCESS_KEY_ID
